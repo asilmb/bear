@@ -24,6 +24,6 @@ class FindBeerActivity : AppCompatActivity() {
         }
         var brandList : List<String> = beerExpert.getBrands(beerType)
         brands.setText( brandList.first())
-        )
+
     }
 }
